@@ -6,18 +6,26 @@
   <meta name="keywords" content="">
   <meta name="description" content="Maven_java配置 | 享受的每一件事">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="1、	安装前环境准备Idea 2023.3.2Jdk 82、	 Maven的下载https:&#x2F;&#x2F;maven.apache.org&#x2F;index.html 3、	下载后放到d盘的一个全英文的空文件夹4、	验证一下maven是否可以使用   mav -v5、	配置本地仓库的位置到D盘6、	配置阿里云镜像加速网址：https:&#x2F;&#x2F;maven.aliyun.com&#x2F;mvn&#x2F;guidealiyunmaven*">
+<meta name="description" content="常见的七种查找算法：​	数据结构是数据存储的方式，算法是数据计算的方式。所以在开发中，算法和数据结构息息相关。今天的讲义中会涉及部分数据结构的专业名词，如果各位铁粉有疑惑，可以先看一下哥们后面录制的数据结构，再回头看算法。 1. 基本查找​	也叫做顺序查找 ​        说明：顺序查找适合于存储结构为数组或者链表。 基本思想：顺序查找也称为线形查找，属于无序查找算法。从数据结构线的一端开始，顺">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Maven_java配置">
-<meta property="og:url" content="http://example.com/2024/07/08/Maven-java%E9%85%8D%E7%BD%AE/index.html">
+<meta property="og:title" content="享受的每一件事">
+<meta property="og:url" content="http://example.com/2025/07/08/%E7%AE%97%E6%B3%95/index.html">
 <meta property="og:site_name" content="享受的每一件事">
-<meta property="og:description" content="1、	安装前环境准备Idea 2023.3.2Jdk 82、	 Maven的下载https:&#x2F;&#x2F;maven.apache.org&#x2F;index.html 3、	下载后放到d盘的一个全英文的空文件夹4、	验证一下maven是否可以使用   mav -v5、	配置本地仓库的位置到D盘6、	配置阿里云镜像加速网址：https:&#x2F;&#x2F;maven.aliyun.com&#x2F;mvn&#x2F;guidealiyunmaven*">
+<meta property="og:description" content="常见的七种查找算法：​	数据结构是数据存储的方式，算法是数据计算的方式。所以在开发中，算法和数据结构息息相关。今天的讲义中会涉及部分数据结构的专业名词，如果各位铁粉有疑惑，可以先看一下哥们后面录制的数据结构，再回头看算法。 1. 基本查找​	也叫做顺序查找 ​        说明：顺序查找适合于存储结构为数组或者链表。 基本思想：顺序查找也称为线形查找，属于无序查找算法。从数据结构线的一端开始，顺">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-07-08T02:39:56.000Z">
-<meta property="article:modified_time" content="2025-07-08T02:41:59.943Z">
+<meta property="og:image" content="https://img-blog.csdn.net/20150323100632467?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2hlbmJvMjAzMA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center">
+<meta property="og:image" content="f:/JavaSE%E6%9C%80%E6%96%B0%E7%89%88/day21-API%EF%BC%88%E7%AE%97%E6%B3%95%EF%BC%8Clambda%EF%BC%8C%E7%BB%83%E4%B9%A0%EF%BC%89/%E7%AC%94%E8%AE%B0/img/Snipaste_2022-09-05_21-36-50.png">
+<meta property="og:image" content="http://example.com/img%5C20180226113852869.png">
+<meta property="og:image" content="f:\JavaSE%E6%9C%80%E6%96%B0%E7%89%88\day21-API%EF%BC%88%E7%AE%97%E6%B3%95%EF%BC%8Clambda%EF%BC%8C%E7%BB%83%E4%B9%A0%EF%BC%89\%E7%AC%94%E8%AE%B0\img\%E5%86%92%E6%B3%A1.gif">
+<meta property="og:image" content="http://example.com/img%5C%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F.gif">
+<meta property="og:image" content="http://example.com/img%5C%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F.gif">
+<meta property="og:image" content="http://example.com/img%5C%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F.gif">
+<meta property="article:published_time" content="2025-07-08T02:49:18.235Z">
+<meta property="article:modified_time" content="2025-03-22T08:06:32.763Z">
 <meta property="article:author" content="小陈">
 <meta property="article:tag" content="blog">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdn.net/20150323100632467?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2hlbmJvMjAzMA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center">
 
 
 <link rel="icon" href="/img/avatar.jpg">
@@ -244,7 +252,7 @@
     <li>
         <div class="all active" data-rel="全部文章">全部文章
             
-                <small>(3)</small>
+                <small>(12)</small>
             
         </div>
     </li>
@@ -269,7 +277,7 @@
         
     </div>
 </div>
-<input type="hidden" id="yelog_site_posts_number" value="3">
+<input type="hidden" id="yelog_site_posts_number" value="12">
 
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
@@ -321,6 +329,87 @@
 
     
     <nav id="title-list-nav">
+        
+        
+        <a  class="全部文章 "
+           href="/2025/07/08/%E7%AE%97%E6%B3%95/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2025-07-08 10:49:18">2025/07/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2025/07/08/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2025-07-08 10:49:18">2025/07/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2025/07/08/%E9%9B%86%E5%90%8802/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2025-07-08 10:49:18">2025/07/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2025/07/08/markdown%20%E8%AF%AD%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2025-07-08 10:49:18">2025/07/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2025/07/08/java%E4%B8%AD%E7%9A%84Tomcat%EF%BC%8Cjsp%E7%9A%84%E9%85%8D%E7%BD%AE/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2025-07-08 10:49:18">2025/07/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2025/07/08/IO%E6%B5%81%EF%BC%88%E5%85%B6%E4%BB%96%E6%B5%81%EF%BC%89/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2025-07-08 10:49:18">2025/07/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2025/07/08/github%E6%90%9C%E7%B4%A2%E6%96%B9%E6%B3%95/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2025-07-08 10:49:18">2025/07/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2025/07/08/commons-io%E6%95%B4%E7%90%86%E7%9A%84%E6%96%87%E6%A1%A3/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2025-07-08 10:49:18">2025/07/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2025/07/08/#%20java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2025-07-08 10:49:18">2025/07/08</span>
+        </a>
         
         
         <a  class="全部文章 "
@@ -379,7 +468,7 @@
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2025-07-08 10:41:59'>2024-07-08 10:39</time>
+            发布时间 : <time class="date" title='最后更新: 2025-07-08 10:47:57'>2024-07-08 10:39</time>
         
     </div>
     <div class="article-meta">
@@ -418,20 +507,28 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>1、	安装前环境准备<br>Idea 2023.3.2<br>Jdk 8<br>2、	 Maven的下载<a target="_blank" rel="noopener" href="https://maven.apache.org/index.html">https://maven.apache.org/index.html</a></p>
-<p>3、	下载后放到d盘的一个全英文的空文件夹<br>4、	验证一下maven是否可以使用   mav -v<br>5、	配置本地仓库的位置到D盘<br>6、	配置阿里云镜像加速<br>网址：<a target="_blank" rel="noopener" href="https://maven.aliyun.com/mvn/guide">https://maven.aliyun.com/mvn/guide</a><br><mirror><br><id>aliyunmaven</id><br><mirrorOf>*</mirrorOf><br><name>阿里云公共仓库</name><br><url><a target="_blank" rel="noopener" href="https://maven.aliyun.com/repository/public">https://maven.aliyun.com/repository/public</a></url><br></mirror><br>7、配置jdk版本  可以配置多个</p>
-<profile>
-    <id>1.8</id>
-    <activation>
-        <jdk>1.8</jdk>
-        <activeByDefault>true</activeByDefault>
-    </activation>
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-     <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
-    </properties>
-</profile>
-
+<p>3、	下载后放到d盘的一个全英文的空文件夹<br>4、	验证一下maven是否可以使用   mav -v<br>5、	配置本地仓库的位置到D盘<br>6、	配置阿里云镜像加速<br>网址：<a target="_blank" rel="noopener" href="https://maven.aliyun.com/mvn/guide">https://maven.aliyun.com/mvn/guide</a></p>
+<pre><code class="java">&lt;mirror&gt;
+&lt;id&gt;aliyunmaven&lt;/id&gt;
+&lt;mirrorOf&gt;*&lt;/mirrorOf&gt;
+&lt;name&gt;阿里云公共仓库&lt;/name&gt;
+&lt;url&gt;https://maven.aliyun.com/repository/public&lt;/url&gt;
+&lt;/mirror&gt;
+</code></pre>
+<p>7、配置jdk版本  可以配置多个</p>
+<pre><code class="java">&lt;profile&gt;
+    &lt;id&gt;1.8&lt;/id&gt;
+    &lt;activation&gt;
+        &lt;jdk&gt;1.8&lt;/jdk&gt;
+        &lt;activeByDefault&gt;true&lt;/activeByDefault&gt;
+    &lt;/activation&gt;
+    &lt;properties&gt;
+        &lt;maven.compiler.source&gt;1.8&lt;/maven.compiler.source&gt;
+        &lt;maven.compiler.target&gt;1.8&lt;/maven.compiler.target&gt;
+     &lt;maven.compiler.compilerVersion&gt;1.8&lt;/maven.compiler.compilerVersion&gt;
+    &lt;/properties&gt;
+&lt;/profile&gt;
+</code></pre>
 <p>在创建Maven项目之后要设置一下  去设置搜索maven   ，设置用户文件 和 仓库目录 就OK了</p>
 
       
